@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # Loading the channels cost/engagement and prescription data
 
-path = r'C:\D\MMX\Supernus\November 25\Overall'
+path = r'C:\D\MMX\data\November 25\Overall'
 df_eng = pd.read_csv(path+"\cost_overall.csv")
 df = df_eng.copy()
 print(df.head())
